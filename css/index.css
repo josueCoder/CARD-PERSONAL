@@ -1,3 +1,68 @@
 .body{
-    background: yellowgreen;
+    background:#20232a;
+    margin: 0;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.main{
+    color: #282c34;
+    padding: 2rem 0;
+}
+
+.header{  
+   padding: 0 2rem;
+   
+   
+    
+}
+.header__profesional-image-container{
+    background: blue;
+    margin: 0 auto;
+    max-width: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+.header__profesinal-image{
+    width: 100%;
+}
+
+
+.article{
+    padding: 2rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.article__title{
+    margin: 0;
+    letter-spacing: 2px;
+    color: #61dafb;
+}
+.article__keyswords{
+    margin: 0;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    color: #fcc419;
+}
+.article__description{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.skills{
+    padding: 2rem;
+    color: #fff;
+}
+.skills__skills-list{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.skills__skill{
+
 }
